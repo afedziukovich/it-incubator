@@ -13,4 +13,5 @@
 Видео с ютуба:
 * https://www.youtube.com/@AleksanderLamkov
 * https://www.youtube.com/@ITINCUBATOR
-* https://www.youtube.com/@ITKAMASUTRA
+* https://www.youtube.com/@ITKAMASUTRA/playlists
+* https://www.youtube.com/watch?v=CxgOKJh4zWE
