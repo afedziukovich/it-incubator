@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Кредитный калькулятор-->
+    <script> 
+        let sum = +prompt("Укажите сумму депозита", 1000);
+        const persent = 15;
+        const result = 2000;
+        let count = 0;
+        
+        const depositTerm = +prompt("Укажите срок депозита", 10);
+
+        while (count < depositTerm) { 
+            sum = sum + sum * (persent / 100) //
+            count = count +1 // 
+            document.write(count + ": " + sum + "<br>") // <br> каждая запись с новой строки \ сама функция выводит данные в html документ
+        }
+
+    </script>
+</body>
+</html>

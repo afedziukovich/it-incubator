@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Циклы-->
+    <script> 
+        let sum = +prompt("Укажите сумму депозита", 1000); // предлагается выбор суммы депозита
+        const persent = 15; // проценты по вкладу
+        const result = 2000;  // итоговая сумма, если необходимо узнать за сколько лет ее можно собрать
+
+        let count = 0; // счетчик отсчета времени
+        
+        const depositTerm = +prompt("Укажите срок депозита", 10); // Всплывающее сообщение 
+
+        while (count < depositTerm) {  //условие: узнать какую сумму мы получим за 10 лет
+            sum = sum + sum * (persent / 100) // формула получения суммы
+            alert(sum) // всплывающее сообщение которое буде выскакивать до выполнения условия в цикле
+            count = count +1 // счетчик увеличивается
+        }
+
+        alert(`Сумма полученная за ${count} лет = ${sum}`);
+    </script>
+</body>
+</html>
